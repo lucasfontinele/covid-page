@@ -203,3 +203,121 @@ main .second-section .img-wrapper {
   position: absolute;
   right: 0;
 }
+
+main .third-section {
+  margin: 90px 0 0;
+}
+
+main .third-section h2 {
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 119%;
+
+  text-align: center;
+  text-transform: capitalize;
+  color: #035755;
+}
+
+main .third-section h2 span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 124%;
+  color: #fa5652;
+}
+
+main .third-section .subtitle {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+main .third-section .subtitle p {
+  font-family: Gelion;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 215%;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  width: 570px;
+  color: #4b4f51;
+}
+
+main .third-section .cards-container {
+  margin: 110px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .third-section .cards-container article {
+  width: 460px;
+  height: 575px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #ffffff;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+
+  margin: 30px 0 30px 30px;
+  padding: 65px 50px 75px;
+}
+
+main .third-section .cards-container article h2 {
+  margin-top: 55px;
+
+  font-family: Gelion;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 147%;
+  text-transform: capitalize;
+  color: #035755;
+}
+
+main .third-section .cards-container article p {
+  margin-top: 15px;
+
+  font-family: Gelion;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 185%;
+  /* or 33px */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #4b4f51;
+}
+
+main .third-section .cards-container article:hover {
+  border-bottom: 6px solid #fa5652;
+  transition: all 0.2 s;
+}
+
+main
+  .third-section
+  .cards-container
+  article:not(:last-child):not(:first-child) {
+  padding-top: 25px;
+}
+
+@media (max-width: 1440px) {
+  main {
+    max-width: 1170px;
+  }
+  /* main .third-section .cards-container {
+    flex-direction: column;
+  } */
+}
